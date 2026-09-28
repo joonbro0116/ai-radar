@@ -1,0 +1,28 @@
+:root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Apple SD Gothic Neo", sans-serif; background: #101827; color: #f5f7fb; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+main { max-width: 620px; margin: auto; padding: max(28px, env(safe-area-inset-top)) 20px calc(32px + env(safe-area-inset-bottom)); }
+header { margin-bottom: 28px; }
+h1, h2, h3, p { margin-top: 0; }
+h1 { font-size: 2.2rem; letter-spacing: -0.05em; margin-bottom: 6px; }
+h2 { font-size: 1.2rem; letter-spacing: -0.03em; }
+h3 { font-size: 1.12rem; line-height: 1.35; margin-bottom: 8px; }
+p { line-height: 1.55; }
+.eyebrow { color: #68d7c4; font-size: .7rem; font-weight: 800; letter-spacing: .11em; margin-bottom: 8px; }
+.subtle, .brief-meta, .source, .save { color: #aab7cf; font-size: .88rem; }
+.focus, .brief, .next { background: #18243a; border: 1px solid #263653; border-radius: 18px; }
+.focus { background: linear-gradient(145deg, #1d3b50, #18243a); padding: 22px; margin-bottom: 32px; }
+.focus h2 { font-size: 1.45rem; margin-bottom: 8px; }
+.focus p:last-child, .next p { margin-bottom: 0; color: #d1daeb; }
+.section-heading { display: flex; align-items: baseline; justify-content: space-between; }
+.section-heading h2 { margin-bottom: 14px; }
+.briefs { display: grid; gap: 12px; }
+.brief { padding: 18px; }
+.brief-meta { display: flex; gap: 9px; margin-bottom: 12px; }
+.tag { color: #a5b4fc; }
+.why { color: #d1daeb; margin-bottom: 16px; }
+.source { color: #7ee7d5; font-weight: 650; text-decoration: none; }
+.save { float: right; appearance: none; background: transparent; border: 0; padding: 0; font: inherit; cursor: pointer; }
+.save[aria-pressed="true"] { color: #f9d871; }
+.next { margin-top: 32px; padding: 20px; }
+@media (min-width: 700px) { main { padding-top: 52px; } }

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#101827" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="AI 레이더" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./icon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>AI 레이더</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">PRIVATE AI BRIEFING</p>
+        <h1>AI 레이더</h1>
+        <p id="date" class="subtle">브리핑을 불러오는 중</p>
+      </header>
+
+      <section class="focus" aria-labelledby="focus-title">
+        <p class="eyebrow">TODAY'S FOCUS</p>
+        <h2 id="focus-title"></h2>
+        <p id="focus-summary"></p>
+      </section>
+
+      <section aria-labelledby="briefs-title">
+        <div class="section-heading">
+          <h2 id="briefs-title">오늘의 5분</h2>
+          <span id="read-count"></span>
+        </div>
+        <div id="briefs" class="briefs"></div>
+      </section>
+
+      <section class="next" aria-labelledby="next-title">
+        <p class="eyebrow">ONE SMALL ACTION</p>
+        <h2 id="next-title">오늘의 한 걸음</h2>
+        <p id="next-action"></p>
+      </section>
+    </main>
+    <template id="brief-template">
+      <article class="brief">
+        <div class="brief-meta"><span class="tag"></span><span class="minutes"></span></div>
+        <h3></h3>
+        <p class="why"></p>
+        <a class="source" target="_blank" rel="noreferrer">원문 보기 <span aria-hidden="true">↗</span></a>
+        <button type="button" class="save">나중에 보기</button>
+      </article>
+    </template>
+    <script src="./app.js"></script>
+  </body>
+</html>

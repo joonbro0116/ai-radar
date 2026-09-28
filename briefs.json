@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-28",
+  "edition": "첫 번째 레이더",
+  "totalMinutes": 5,
+  "focus": {
+    "title": "AI 흐름을 ‘뉴스’가 아니라 ‘직접 해볼 변화’로 읽기",
+    "summary": "매일 새 기능을 다 따라갈 필요는 없습니다. 내 일과 무관해 보여도, 실제로 써볼 수 있는 변화 한두 개를 골라 작은 실험으로 연결합니다."
+  },
+  "items": [
+    {
+      "id": "openai",
+      "tag": "공식 업데이트",
+      "minutes": 2,
+      "title": "OpenAI 개발자 문서와 제품 변경 사항 확인하기",
+      "why": "모델·도구 변화는 1차 출처에서 먼저 확인해야 과장된 해석을 줄일 수 있습니다.",
+      "source": "OpenAI",
+      "url": "https://developers.openai.com/"
+    },
+    {
+      "id": "anthropic",
+      "tag": "도구 탐색",
+      "minutes": 1,
+      "title": "Anthropic의 제품·연구 업데이트 훑어보기",
+      "why": "한 회사의 발표만 보면 도구 선택이 좁아집니다. 다른 접근을 비교하는 감각을 기릅니다.",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "github",
+      "tag": "직접 해보기",
+      "minutes": 2,
+      "title": "GitHub에서 이번 주 AI 도구 하나만 북마크하기",
+      "why": "읽기만 하지 않고 실제 저장소 하나를 열어보는 습관이 도구 감각을 가장 빨리 만듭니다.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/trending"
+    }
+  ],
+  "action": "출근길에 카드 하나만 열고, ‘내가 이번 주에 써볼 수 있나?’를 판단해 보세요. 답이 아니면 저장하지 않고 넘깁니다."
+}
